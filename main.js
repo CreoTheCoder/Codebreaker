@@ -1,5 +1,5 @@
 function randomNum() {
-    return mathRandom()+mathRandom()+mathRandom()+mathRandom()+'';
+    return ''+mathRandom()+mathRandom()+mathRandom()+mathRandom();
 }
 function mathRandom() {
     return Math.floor(Math.random()*10);
